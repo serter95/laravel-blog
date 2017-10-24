@@ -9,6 +9,6 @@ class apiController extends Controller
 {
     public function vueIndex()
     {
-        return User::orderBy('id', 'DESC')->take(5)->get();
+        return User::orderBy('id', 'DESC')->take(5)->get(); 
     }
 }
