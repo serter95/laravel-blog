@@ -1,0 +1,105 @@
+.jumbotron {
+  margin-bottom: 0rem;
+}
+
+.footer {
+  /*position: absolute;*/
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+.imagenes{
+  display: inline-block;
+  max-width: 22rem;
+  min-height: 30rem;
+  margin-right: 1%;
+  padding-top: 1%;
+}
+
+.tablas{
+   display: inline-block;
+}
+
+.card-text{
+  color: rgb(244, 100, 95);
+}
+
+.card-img-top{
+  height: 20rem;
+}
+
+.categorias{
+  background-color: rgb(244, 100, 95);
+  color: #FFF;
+}
+
+.tags{
+  background-color: #007bff;
+  color: #FFF;
+}
+
+.card{
+  margin-bottom: 1%;
+}
+
+.size-12 { font-size: 12px; }
+.size-14 { font-size: 14px; }
+.size-16 { font-size: 16px; }
+.size-18 { font-size: 18px; }
+.size-21 { font-size: 21px; }
+.size-24 { font-size: 24px; }
+.size-32 { font-size: 32px; }
+.size-48 { font-size: 48px; }
+.size-64 { font-size: 64px; }
+.size-96 { font-size: 96px; }
+
+.step {
+  display: inline-block;
+  line-height: 1;
+  position: relative;
+}
+
+.tiempo{
+  font-size: 0.7rem;
+}
+
+/* unvisited link */
+.card-text a:link {
+    color: rgb(244, 100, 95);
+}
+
+/* visited link */
+.card-text a:visited {
+    color: rgb(244, 100, 95);
+}
+
+/* mouse over link */
+.card-text a:hover {
+    color: rgb(244, 100, 95);
+    text-decoration: underline;
+}
+
+/* selected link */
+.card-text a:active {
+    color: rgb(244, 100, 95);
+}
+
+h4 a:hover{
+  text-decoration: underline;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.fondo-articulo{
+  background-color: #FFF;
+}
+
+.info-articulo{
+  margin-bottom: 3%;
+}
